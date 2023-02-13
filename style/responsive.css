@@ -1,0 +1,33 @@
+@media screen and (max-width:600px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    .search input{
+        display: flex;
+        justify-content: center;
+        width: 20vh;
+        margin: 5px 10px 5px 90px;
+    
+    }
+    .slider img{
+        width: 63vh;
+    }
+    .card-item img{
+        width: 15vh;
+    }
+    .card-item{
+overflow: visible;
+    }
+
+    
+}

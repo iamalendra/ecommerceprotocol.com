@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dodgerblue;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo img{
+    height: 50px;
+    width: 200px;
+    
+}
+nav ul{
+    height: 6vh;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 40vh;
+    border-radius: 2px;
+    margin: 0 10px 0 60px;
+    text-transform: capitalize;
+    padding: 1px 15px;
+}
+.search button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid white;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    font-weight: bolder;
+}
+
+.container {
+min-height: calc(100vh - 6vh - 15vh);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+    overflow: hidden;
+}
+.slider img{
+    height: 80vh;
+    width: 200vh;
+    border: 3px solid red;
+}
+
+.card{
+    max-width: 200vh;
+    margin: auto;
+    text-transform: capitalize;
+    overflow: scroll;
+    background-color: azure;
+    
+}
+.card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+    cursor: pointer;
+
+}
+.card-item img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+.card-item img:hover{
+
+transform: scale(1.5);
+}
+.line p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: dodgerblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
